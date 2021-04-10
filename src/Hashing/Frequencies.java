@@ -13,7 +13,7 @@ public class Frequencies {
             map.put(a, map.getOrDefault(a,0)+1);
         }
         for(Map.Entry<Integer,Integer> e: map.entrySet()){
-            System.out.println(e.getKey()+" "+ e.getValue());x`
+            System.out.println(e.getKey()+" "+ e.getValue());
         }
     }
 }
