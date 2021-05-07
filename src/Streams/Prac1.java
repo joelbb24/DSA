@@ -20,6 +20,5 @@ public class Prac1 {
         map.put("l", 80);
 
         map.entrySet().stream().sorted(Map.Entry.comparingByValue()).forEach(System.out::println);
-
     }
 }
